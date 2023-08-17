@@ -1,0 +1,67 @@
+
+.mainConatiner{
+     display:flex;
+}
+
+.icon{
+    height:55px;
+    width: 55px;
+}
+
+#container{
+      display: flex;
+      justify-content: end;
+    align-items:end;
+    
+      /* background-color: black; */
+      /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
+      background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+      height: 635px;
+      width:100vw;
+      border: 3px solid black;
+}
+
+
+
+.b {
+  display: flex;
+  flex-direction: column; /* Stack items from top to bottom */
+  justify-content: space-around; /* Align content to the top */
+  align-items: center; /* Align text to the left side */
+  background-color: brown;
+  margin: 5px; /* Adjust spacing */
+  flex-grow: 1; /* Make each bar expand to fill available space */
+  border: 1px solid black;
+  color: black;
+  font-size: calc(0.5rem + 0.5vw); /* Adjust the formula as needed */
+  overflow: hidden; /* Hide overflow if text becomes too large */
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-radius:15px;
+  text-align: center;
+  font-family: cursive;
+  border: 3px solid black;
+}
+
+.h8{
+    background-color:tomato;
+    width:10px;
+    height:20px;
+}
+button{
+  margin:0px 10px 0px 0px;
+  width: 160px;
+  border:4px solid black;
+}
+
+input[type="range"] {
+    height:22px;
+    width:60px;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+    font-weight: 450;
+    border-radius: 20px;
+}
